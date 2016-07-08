@@ -1,0 +1,304 @@
+
+<!DOCTYPE html>
+<!--[if IE 9]>         <html class="ie9 no-focus"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-focus"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+
+        <title>风口 - 大家的路演平台</title>
+
+        <meta name="description" content="OneUI - Admin Dashboard Template & UI Framework created by pixelcave and published on Themeforest">
+        <meta name="author" content="pixelcave">
+        <meta name="robots" content="noindex, nofollow">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
+
+        <!-- Icons -->
+        <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
+        <link rel="shortcut icon" href="./assets/img/favicons/favicon.png">
+
+        <link rel="icon" type="image/png" href="./assets/img/favicons/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="./assets/img/favicons/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="./assets/img/favicons/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="./assets/img/favicons/favicon-160x160.png" sizes="160x160">
+        <link rel="icon" type="image/png" href="./assets/img/favicons/favicon-192x192.png" sizes="192x192">
+
+        <link rel="apple-touch-icon" sizes="57x57" href="./assets/img/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./assets/img/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./assets/img/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./assets/img/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./assets/img/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./assets/img/favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicons/apple-touch-icon-180x180.png">
+        <!-- END Icons -->
+
+        <!-- Stylesheets -->
+        <!-- Web fonts -->
+        <!--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700">-->
+
+        <!-- Page JS Plugins CSS go here -->
+
+        <!-- Bootstrap and OneUI CSS framework -->
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+        <link rel="stylesheet" id="css-main" href="./assets/css/oneui.min.css">
+
+        <!-- You can include a specific file from css/themes/ folder to alter the default color theme of the template. eg: -->
+        <!-- <link rel="stylesheet" id="css-theme" href="./assets/css/themes/flat.min.css"> -->
+        <!-- END Stylesheets -->
+    </head>
+    <body>
+        <!-- Page Container -->
+        <!--
+            Available Classes:
+
+            'enable-cookies'             Remembers active color theme between pages (when set through color theme list)
+
+            'sidebar-l'                  Left Sidebar and right Side Overlay
+            'sidebar-r'                  Right Sidebar and left Side Overlay
+            'sidebar-mini'               Mini hoverable Sidebar (> 991px)
+            'sidebar-o'                  Visible Sidebar by default (> 991px)
+            'sidebar-o-xs'               Visible Sidebar by default (< 992px)
+
+            'side-overlay-hover'         Hoverable Side Overlay (> 991px)
+            'side-overlay-o'             Visible Side Overlay by default (> 991px)
+
+            'side-scroll'                Enables custom scrolling on Sidebar and Side Overlay instead of native scrolling (> 991px)
+
+            'header-navbar-fixed'        Enables fixed header
+            'header-navbar-transparent'  Enables a transparent header (if also fixed, it will get a solid dark background color on scrolling)
+        -->
+
+       <div id="page-container" class="header-navbar-fixed header-navbar-transparent">
+            <!-- Header -->
+            <header id="header-navbar" class="content-mini content-mini-full">
+                <div class="content-boxed">
+                    <!-- Header Navigation Right -->
+                    <ul class="nav-header pull-right">
+
+
+                        <li class="hidden-md hidden-lg">
+                            <!-- Toggle class helper (for main header navigation below in small screens), functionality initialized in App() -> uiToggleClass() -->
+                            <button class="btn btn-link text-white pull-right" data-toggle="class-toggle" data-target=".js-nav-main-header" data-class="nav-main-header-o" type="button">
+                                <i class="fa fa-navicon"></i>
+                            </button>
+                        </li>
+                    </ul>
+                    <!-- END Header Navigation Right -->
+
+                    <!-- Main Header Navigation -->
+                    <ul class="js-nav-main-header nav-main-header pull-right">
+                        <li class="text-right hidden-md hidden-lg">
+                            <!-- Toggle class helper (for main header navigation in small screens), functionality initialized in App() -> uiToggleClass() -->
+                            <button class="btn btn-link text-white" data-toggle="class-toggle" data-target=".js-nav-main-header" data-class="nav-main-header-o" type="button">
+                                <i class="fa fa-times"></i>
+                            </button>
+                        </li>
+                        <li>
+                            <a href="/">首页</a>
+                        </li>
+                        <li> <a href="#WhatIsPhoncol" onclick="$('.js-nav-main-header').removeClass('nav-main-header-o');">风口是什么</a></li>
+                    </ul>
+                    <!-- END Main Header Navigation -->
+
+                    <!-- Header Navigation Left -->
+                    <ul class="nav-header pull-left">
+                        <li class="header-content">
+                            <a class="h5" href="/">
+                                <img class="logo-img " src="./assets/img/logo.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- END Header Navigation Left -->
+                </div>
+            </header>
+            <!-- END Header -->
+
+            <!-- Main Container -->
+            <main id="main-container">
+                <!-- Hero Content -->
+                <div class="bg-image" style="background-image: url('./assets/img/hero-bg.jpg');height:100vh;">
+                    <div class="index-gredient" style="height:100vh">
+                        <section class="content content-full content-boxed overflow-hidden">
+                            <!-- Section Content -->
+                            <div class="push-100-t push-50 text-center">
+                                <h1 class="h1 text-white push-10 visibility-hidden" data-toggle="appear" data-class="animated fadeInDown">风口</h1>
+                                <h2 class="h3 text-white-op push-50 visibility-hidden" data-toggle="appear" data-class="animated fadeInDown">大家的路演平台</h2>
+
+
+                                    <div class="download-btn-group" data-toggle="appear">
+                                        <a data-toggle="tooltip" data-placement="top" title="Android" href="http://fir.im/sudoboot"><i class="fa fa-android"></i></a>
+                                        <a data-toggle="tooltip" data-placement="top" title="iPhone" href="https://itunes.apple.com/cn/app/feng-kou-chuang-shi-ren-lu/id1009140196?mt=8"><i class="fa fa-mobile"></i></a>
+                                        <a data-toggle="tooltip" data-placement="top" title="Windows" href="http://7xo06a.com1.z0.glb.clouddn.com/download/fengkou-windows.zip"><i class="fa fa-windows"></i></a>
+                                        <a data-toggle="tooltip" data-placement="top" title="Web" href="http://web.sudoboot.com"><i class="fa fa-chrome"></i></a>
+                                        <a data-toggle="tooltip" data-placement="top" title="Mac" href="http://7xo06a.com1.z0.glb.clouddn.com/download/fengkou.dmg"><i class="fa fa-apple"></i></a>
+                                    </div>
+                            </div>
+                            <div class="push-100-t push-50 text-center" data-toggle="appear" data-class="animated fadeInDown" >
+                                <p class="text-white">路演项目火热征集中! 上门拍摄 <a target="_blank" href="http://form.mikecrm.com/f.php?t=inmYHD" class="btn btn-xs btn-primary"><i class="fa fa-video-camera"></i>  点击预约</a> (限北京地区)</p>
+                            </div>
+
+                            <div class="row visibility-hidden" data-toggle="appear" data-class="animated fadeInUp">
+                                <div class="col-sm-8 col-sm-offset-2">
+                                    <!--<img class="img-responsive pull-b" src="./assets/img/phoncol/phone.png" alt="">-->
+                                </div>
+                            </div>
+                            <!-- END Section Content -->
+                        </section>
+                    </div>
+                </div>
+                <!-- END Hero Content -->
+
+                <!-- Classic Features #1 -->
+                <div class="bg-white">
+                    <section id="WhatIsPhoncol" class="content content-boxed">
+                        <!-- Section Content -->
+                        <div class="row items-push-3x push-50-t nice-copy">
+                            <div class="push-20-t push-20 text-center">
+                                <h1 class="h1 push-20 animated fadeIn" data-toggle="appear">风口是什么</h1>
+                                <h4 class="h4 push-20 animated fadeIn" data-toggle="appear">带你踏入风口带你飞</h4>
+                            </div>
+                        </div>
+                        <div class="row items-push-3x push-50-t nice-copy">
+                            <div class="col-sm-4">
+                                <div class="feature-row">
+                                    <div class="text-center push-30">
+                                        <span class="item item-2x item-circle border">
+                                            <i class="fa fa-money"></i>
+                                        </span>
+                                    </div>
+                                    <h3 class="h3 font-w600 text-uppercase text-center push-10">给投资人</h3>
+                                    <h5 class="h5">一个发现各种有趣项目的地方，没事儿的时候打开 app 看看，发个邮件戳一下，就这么简单！</h5>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="feature-row">
+                                    <div class="text-center push">
+                                        <span class="item item-2x item-circle border">
+                                            <i class="fa fa-user"></i>
+                                        </span>
+                                    </div>
+                                    <h3 class="h3 font-w600 text-uppercase text-center push-10">给创业者</h3>
+                                    <h5 class="h5">把你的项目和想法拍一段视频给投资人们看，比朋友圈什么有效率多了。</h5>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="feature-row">
+                                    <div class="text-center push">
+                                        <span class="item item-2x item-circle border">
+                                            <i class="fa fa-heart"></i>
+                                        </span>
+                                    </div>
+                                    <h3 class="h3 font-w600 text-uppercase text-center push-10">给其他人</h3>
+                                    <h5 class="h5">看看现在的聪明人们都在想些什么，也许你也能参与进来。</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END Section Content -->
+                    </section>
+                </div>
+                <!-- END Classic Features #1 -->
+
+                <!-- Mini Stats -->
+                <!--
+                <div class="bg-gray-lighter">
+                    <section class="content content-boxed">
+
+                        <div class="row items-push push-20-t push-20 text-center">
+                            <div class="col-sm-4">
+                                <div class="h1 push-5" data-toggle="countTo" data-to="15760" data-after="+"></div>
+                                <div class="font-w600 text-uppercase text-muted">Accounts Today</div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="h1 push-5" data-toggle="countTo" data-to="3890" data-after="+"></div>
+                                <div class="font-w600 text-uppercase text-muted">Products</div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="h1 push-5" data-toggle="countTo" data-to="890" data-after="+"></div>
+                                <div class="font-w600 text-uppercase text-muted">Web Apps</div>
+                            </div>
+                        </div>
+
+                    </section>
+                </div>
+                -->
+                <!-- END Mini Stats -->
+
+
+
+
+            </main>
+            <!-- END Main Container -->
+
+            <!-- Footer -->
+            <footer id="page-footer" class="bg-white">
+                <div class="content content-boxed">
+                    <!-- Footer Navigation -->
+
+                    <!-- END Footer Navigation -->
+
+                    <!-- Copyright Info -->
+                    <div class="font-s12 push-20 clearfix feature-row row">
+
+                        <hr class="remove-margin-t">
+
+                        <div class="pull-left col-xs-12 col-lg-4">
+                          <div class="text-center">
+                                  sudoboot &copy; <span class="js-year-copy"></span>
+                              <p>客服电话 4008763331</p>
+                          </div>
+                        </div>
+
+                        <div class="pull-right col-xs-12 col-lg-4">
+                          <div class="text-center">
+                            <a href="/hr">招贤纳士</a> |
+                            <a href="#" data-toggle="modal" data-target="#contactModal">联系我们</a> |
+                            <a href="/about">关于我们</a>
+                          </div>
+                        </div>
+
+                        <div class="text-center col-xs-12 col-lg-4">
+                            <a>粤ICP备15030823号-1</a>
+                        </div>
+                    </div>
+                    <!-- END Copyright Info -->
+                </div>
+            </footer>
+            <!-- END Footer -->
+        </div>
+
+
+        <div id="contactModal" class="modal fade">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">联系我们</h4>
+              </div>
+              <div class="modal-body text-center" >
+                <p>关于app bug反馈、视频上传、预约拍摄、项目路演、商务合作或其他事宜，请联系： </p>
+                <p><i class="fa fa-envelope"></i>邮箱：wangmiao@bitfund.pe</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+        <!-- END Page Container -->
+
+        <!-- OneUI Core JS: jQuery, Bootstrap, slimScroll, scrollLock, Appear, CountTo, Placeholder, Cookie and App.js -->
+
+        <script src="./assets/js/oneui.min.js"></script>
+
+        <!-- Page JS Plugins + Page JS Code -->
+        <script>
+            $(function () {
+                // Init page helpers (Appear + CountTo plugins)
+                App.initHelpers(['appear', 'appear-countTo']);
+            });
+        </script>
+
+    </body>
+</html>
