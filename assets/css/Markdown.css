@@ -1,0 +1,45 @@
+html {
+  background: #fff;
+  color: #333;
+  line-height: 1.8em;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+  -webkit-margin-before: 0.4em;
+  -webkit-margin-after: 0.4em;
+}
+ul,p {
+  -webkit-margin-before: 0.2em;
+  -webkit-margin-after: 0.2em;
+}
+blockquote {
+  -webkit-margin-start: 30px;
+  -webkit-margin-end: 30px;
+}
+
+pre {
+  background: #fff;
+  border: none;
+  color: #333;
+  box-shadow: none;
+  padding: 0.5em;
+}
+pre code {
+  background: #fff;
+}
+
+h1 {
+  font-size: 1.9em;
+}
+h2 {
+  font-size: 1.7em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.3em;
+}
+h5 {
+  font-size: 1.1em;
+}
